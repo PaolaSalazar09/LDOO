@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <title>Formulario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+       <h1 align="center">Registro de usuario</h1>
+       <hr>
+        <br>
+        Favor de ingresar los siguientes datos.
+        <br><br>
+        <form action="/practica3/practica3.jsp"
+            method="POST">
+        <div>
+            <br>
+            Nombre: <input type="text" name="nomb"> 
+            Apellido: <input type="text" name="ap"> 
+            <br>
+            <br>
+            Fecha de nacimiento: 
+                <input type="date" name="dt">
+                <br><br>
+            Correo electrónico: <input type="email" name="mail">
+            <br><br>
+            Contraseña: <input type="password" name="pass">
+            <br><br>
+            <br>
+            <input type="reset" value="Borrar">   
+            <input type="submit" value="Enviar">
+           </div>
+        </form>
+        
+    </body>
+</html>
